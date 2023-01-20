@@ -1,6 +1,6 @@
 const { network, run, ethers } = require('hardhat');
 const fs = require('fs')
-const { MerkleTree } = require('../src/merkleHelper');
+const { MerkleTree } = require('../js/merkleHelper');
 const whitelist = require('../Whitelist.json');
 
 const totalToBeMinted = 99;

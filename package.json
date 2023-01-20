@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.jsx"
   },
   "author": "",
   "license": "ISC",
@@ -17,8 +18,11 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.1",
+    "connectkit": "^1.1.1",
     "dotenv": "^16.0.3",
     "keccak256": "^1.0.6",
-    "merkletreejs": "^0.3.9"
+    "merkletreejs": "^0.3.9",
+    "react-hooks-global-state": "^2.1.0",
+    "wagmi": "^0.9.6"
   }
 }
